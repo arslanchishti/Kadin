@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DFF5531B441CED000B6E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF5521B441CED000B6E4C /* AppDelegate.swift */; };
+		04DFF5551B441CED000B6E4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF5541B441CED000B6E4C /* ViewController.swift */; };
+		04DFF5581B441CED000B6E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DFF5561B441CED000B6E4C /* Main.storyboard */; };
+		04DFF55A1B441CED000B6E4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DFF5591B441CED000B6E4C /* Images.xcassets */; };
+		04DFF55D1B441CED000B6E4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DFF55B1B441CED000B6E4C /* LaunchScreen.xib */; };
+		04DFF5691B441CED000B6E4C /* KadinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF5681B441CED000B6E4C /* KadinTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DFF5631B441CED000B6E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DFF5451B441CED000B6E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DFF54C1B441CED000B6E4C;
+			remoteInfo = Kadin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DFF54D1B441CED000B6E4C /* Kadin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFF5511B441CED000B6E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DFF5521B441CED000B6E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DFF5541B441CED000B6E4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DFF5571B441CED000B6E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DFF5591B441CED000B6E4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04DFF55C1B441CED000B6E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04DFF5621B441CED000B6E4C /* KadinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KadinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFF5671B441CED000B6E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DFF5681B441CED000B6E4C /* KadinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KadinTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DFF54A1B441CED000B6E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF55F1B441CED000B6E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DFF5441B441CED000B6E4C = {
+			isa = PBXGroup;
+			children = (
+				04DFF54F1B441CED000B6E4C /* Kadin */,
+				04DFF5651B441CED000B6E4C /* KadinTests */,
+				04DFF54E1B441CED000B6E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DFF54E1B441CED000B6E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF54D1B441CED000B6E4C /* Kadin.app */,
+				04DFF5621B441CED000B6E4C /* KadinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DFF54F1B441CED000B6E4C /* Kadin */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF5521B441CED000B6E4C /* AppDelegate.swift */,
+				04DFF5541B441CED000B6E4C /* ViewController.swift */,
+				04DFF5561B441CED000B6E4C /* Main.storyboard */,
+				04DFF5591B441CED000B6E4C /* Images.xcassets */,
+				04DFF55B1B441CED000B6E4C /* LaunchScreen.xib */,
+				04DFF5501B441CED000B6E4C /* Supporting Files */,
+			);
+			path = Kadin;
+			sourceTree = "<group>";
+		};
+		04DFF5501B441CED000B6E4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF5511B441CED000B6E4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DFF5651B441CED000B6E4C /* KadinTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF5681B441CED000B6E4C /* KadinTests.swift */,
+				04DFF5661B441CED000B6E4C /* Supporting Files */,
+			);
+			path = KadinTests;
+			sourceTree = "<group>";
+		};
+		04DFF5661B441CED000B6E4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF5671B441CED000B6E4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DFF54C1B441CED000B6E4C /* Kadin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFF56C1B441CED000B6E4C /* Build configuration list for PBXNativeTarget "Kadin" */;
+			buildPhases = (
+				04DFF5491B441CED000B6E4C /* Sources */,
+				04DFF54A1B441CED000B6E4C /* Frameworks */,
+				04DFF54B1B441CED000B6E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kadin;
+			productName = Kadin;
+			productReference = 04DFF54D1B441CED000B6E4C /* Kadin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DFF5611B441CED000B6E4C /* KadinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFF56F1B441CED000B6E4C /* Build configuration list for PBXNativeTarget "KadinTests" */;
+			buildPhases = (
+				04DFF55E1B441CED000B6E4C /* Sources */,
+				04DFF55F1B441CED000B6E4C /* Frameworks */,
+				04DFF5601B441CED000B6E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DFF5641B441CED000B6E4C /* PBXTargetDependency */,
+			);
+			name = KadinTests;
+			productName = KadinTests;
+			productReference = 04DFF5621B441CED000B6E4C /* KadinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DFF5451B441CED000B6E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FatahLinks;
+				TargetAttributes = {
+					04DFF54C1B441CED000B6E4C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04DFF5611B441CED000B6E4C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04DFF54C1B441CED000B6E4C;
+					};
+				};
+			};
+			buildConfigurationList = 04DFF5481B441CED000B6E4C /* Build configuration list for PBXProject "Kadin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DFF5441B441CED000B6E4C;
+			productRefGroup = 04DFF54E1B441CED000B6E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DFF54C1B441CED000B6E4C /* Kadin */,
+				04DFF5611B441CED000B6E4C /* KadinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DFF54B1B441CED000B6E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFF5581B441CED000B6E4C /* Main.storyboard in Resources */,
+				04DFF55D1B441CED000B6E4C /* LaunchScreen.xib in Resources */,
+				04DFF55A1B441CED000B6E4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF5601B441CED000B6E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DFF5491B441CED000B6E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFF5551B441CED000B6E4C /* ViewController.swift in Sources */,
+				04DFF5531B441CED000B6E4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF55E1B441CED000B6E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFF5691B441CED000B6E4C /* KadinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DFF5641B441CED000B6E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DFF54C1B441CED000B6E4C /* Kadin */;
+			targetProxy = 04DFF5631B441CED000B6E4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DFF5561B441CED000B6E4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DFF5571B441CED000B6E4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DFF55B1B441CED000B6E4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DFF55C1B441CED000B6E4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DFF56A1B441CED000B6E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DFF56B1B441CED000B6E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DFF56D1B441CED000B6E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kadin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04DFF56E1B441CED000B6E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kadin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04DFF5701B441CED000B6E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KadinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadin.app/Kadin";
+			};
+			name = Debug;
+		};
+		04DFF5711B441CED000B6E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KadinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadin.app/Kadin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DFF5481B441CED000B6E4C /* Build configuration list for PBXProject "Kadin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFF56A1B441CED000B6E4C /* Debug */,
+				04DFF56B1B441CED000B6E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFF56C1B441CED000B6E4C /* Build configuration list for PBXNativeTarget "Kadin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFF56D1B441CED000B6E4C /* Debug */,
+				04DFF56E1B441CED000B6E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04DFF56F1B441CED000B6E4C /* Build configuration list for PBXNativeTarget "KadinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFF5701B441CED000B6E4C /* Debug */,
+				04DFF5711B441CED000B6E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DFF5451B441CED000B6E4C /* Project object */;
+}
